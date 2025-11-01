@@ -71,6 +71,7 @@ section > div:first-child {
   background-color: var(--color-primary);
   border-radius: var(--border-radius-sm);
   margin-bottom: var(--margin-sm);
+  box-shadow: 1px 2px 4px #0000001f;
 }
 
 main {
@@ -102,7 +103,6 @@ section {
   display: flex;
   flex: 1 1 auto;
   min-height: 0;
-  overflow: hidden;
   flex-direction: column;
   gap: var(--gap-md);
   width: 100%;
@@ -114,7 +114,7 @@ article {
   border: 1px solid var(--color-border);
   border-radius: var(--border-radius-sm);
   padding: var(--padding-sm);
-  box-shadow: 1px 2px 5px #0000001f;
+  box-shadow: 1px 2px 4px #0000001f;
   cursor: grab;
   background-color: var(--color-base);
   transition: border 0.5s ease-in, background-color 0.5s ease-in;
