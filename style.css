@@ -70,6 +70,7 @@ section > div:first-child {
   padding: var(--padding-sm);
   background-color: var(--color-primary);
   border-radius: var(--border-radius-sm);
+  margin-bottom: var(--margin-sm);
 }
 
 main {
