@@ -229,6 +229,7 @@ article:hover > div:last-child span {
   padding: var(--padding-sm);
   color: black;
   transition: background-color 0.5s ease-in 0.2s, color 1s ease-in;
+  border: none;
 }
 .close-btn:hover {
   cursor: pointer;
