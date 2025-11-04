@@ -161,10 +161,8 @@ article > div:last-child button {
   border: none;
   background: none;
   margin-top: var(--margin-sm);
-  transition: margin-top 0.5s ease-in;
   opacity: 0;
-  transition: margin-top 0.5s ease-in, color 0.5s ease-in,
-    opacity 0.6s ease-in 0.2s;
+  transition: color 0.5s ease-in, opacity 0.6s ease-in 0.2s;
 }
 article > div:last-child button:hover {
   color: var(--color-accent);
