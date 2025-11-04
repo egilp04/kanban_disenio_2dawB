@@ -13,7 +13,7 @@
   --font-body: "Poppins", "Helvetica", Arial, sans-serif;
 
   --gap-sm: 0.5rem;
-  --gap-md: 1rem;
+  --gap-md: 0.75rem;
   --gap-lg: 2rem;
 
   --margin-sm: 0.5rem;
@@ -89,21 +89,22 @@ section {
   min-height: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: stretch;
   height: 100%;
-  gap: var(--gap-sm);
+  gap: var(--gap-md);
   padding: var(--padding-md);
   font-family: var(--font-body);
 }
 
 .card-container {
   display: flex;
-  flex: 1 1 auto;
   min-height: 0;
   flex-direction: column;
   gap: var(--gap-md);
   width: 100%;
+  overflow: auto;
+  padding-bottom: var(--padding-sm);
 }
 
 article {
