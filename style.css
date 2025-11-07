@@ -168,6 +168,9 @@ article > div:last-child button:hover {
   color: var(--color-accent);
   transition: color 0.5s ease-in;
   cursor: pointer;
+  background-color: #e3eff8ff;
+  transition: background-color 0.4s ease-in 0.2s;
+  border-radius: var(--border-radius-sm);
 }
 article:hover > div:last-child button {
   opacity: 1;
